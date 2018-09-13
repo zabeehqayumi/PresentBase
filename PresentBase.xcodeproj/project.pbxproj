@@ -13,6 +13,7 @@
 		4E2CE5092149E829007554B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2CE5072149E829007554B7 /* LaunchScreen.storyboard */; };
 		4E2CE5112149F07D007554B7 /* ChirstmisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CE5102149F07D007554B7 /* ChirstmisTableViewController.swift */; };
 		4E2CE5132149F2D2007554B7 /* PresentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CE5122149F2D2007554B7 /* PresentTableViewCell.swift */; };
+		4E2CE516214A013A007554B7 /* PresentModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CE514214A013A007554B7 /* PresentModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E2CE50A2149E829007554B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E2CE5102149F07D007554B7 /* ChirstmisTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChirstmisTableViewController.swift; sourceTree = "<group>"; };
 		4E2CE5122149F2D2007554B7 /* PresentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTableViewCell.swift; sourceTree = "<group>"; };
+		4E2CE515214A013A007554B7 /* PresentModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PresentModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4E2CE4FE2149E825007554B7 /* AppDelegate.swift */,
 				4E2CE5102149F07D007554B7 /* ChirstmisTableViewController.swift */,
+				4E2CE514214A013A007554B7 /* PresentModel.xcdatamodeld */,
 				4E2CE5122149F2D2007554B7 /* PresentTableViewCell.swift */,
 				4E2CE5022149E825007554B7 /* Main.storyboard */,
 				4E2CE5052149E829007554B7 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				4E2CE5112149F07D007554B7 /* ChirstmisTableViewController.swift in Sources */,
 				4E2CE4FF2149E825007554B7 /* AppDelegate.swift in Sources */,
 				4E2CE5132149F2D2007554B7 /* PresentTableViewCell.swift in Sources */,
+				4E2CE516214A013A007554B7 /* PresentModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +340,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E2CE514214A013A007554B7 /* PresentModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E2CE515214A013A007554B7 /* PresentModel.xcdatamodel */,
+			);
+			currentVersion = 4E2CE515214A013A007554B7 /* PresentModel.xcdatamodel */;
+			path = PresentModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4E2CE4F32149E825007554B7 /* Project object */;
 }
